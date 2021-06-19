@@ -1,0 +1,46 @@
+html {
+    background-color: #efece5;
+  }
+  
+  .container {
+    padding: 50px;
+    margin-left: -220px;
+  }
+  
+  .title {
+    font-family: "Yeseva One", serif;
+    font-size: 40px;
+    color: 000000;
+    margin-bottom: 50px;
+    margin-left: 220px;
+    text-align: center;
+  }
+  
+  .questions {
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+  }
+  
+  .everything {
+    display: flex;
+    margin-left: 300px;
+  }
+  
+  .ticket {
+    margin-left: 150px;
+    height: 560px;
+    width: 400px;
+  }
+  
+  .everything2 {
+    display: flex;
+    margin-left: 150px;
+    position: absolute;
+    top: 75%;
+    left: 65.25%;
+    transform: translate(-55%, -60%);
+  }
+  .expenses {
+    margin-left: 20px;
+  }
+  

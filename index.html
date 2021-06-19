@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Student Debt Calculator</title>
+    <br />
+  </head>
+  <body>
+  <div class="container">
+    <div class="title">Student Debt Calculator</div>
+    <div class="everything">
+      <form>
+        <label class="questions" for="student_debt_input"
+          >How much student debt do you have?</label
+        >
+        <br />
+        <input
+          class="answers"
+          type="text"
+          id="student_debt_input"
+          name="student_debt_input"
+        /><br /><br />
+        <label class="questions" for="monthly_income"
+          >What is your monthly income?</label
+        ><br />
+        <input
+          class="answers"
+          type="text"
+          id="monthly_income"
+          name="monthly_income"
+        />
+        <br /><br />
+        <label class="questions" for="student_payoff"
+          >How long will it take for me to finish paying off student debt at
+          this rate?</label
+        ><br /><br />
+        <button id="ourbutton" onClick="calculate_button(event)">
+          Calculate!
+        </button>
+        <br />
+      </form>
+      <img src="ticket.png" alt="ticket" class="ticket" />
+    </div>
+   <div class="everything2">
+    <div class="topic">
+      <form onsubmit="return false">
+        <label class="topic">TOPIC</label> <br> <br>
+        <input id="topic1" class="ticket_input1"> </input> <br> <br> <br>
+        <input id="topic2" class="ticket_input1"> </input> <br> <br> <br>
+        <input id="topic3" class="ticket_input1"> </input> <br> <br> <br>
+        <input id="topic4" class="ticket_input1"> </input> <br> <br> <br> 
+        <input id="topic5" class="ticket_input1"> </input> <br> <br> <br>
+      </form>
+      </div>
+      <div class = "expenses"> 
+        <form onsubmit="return false">
+          <label class="expenses_title">EXPENSES</label> <br> <br>
+          <input id="expenses1" class="ticket_input1"> </input> <br> <br> <br> 
+          <input id="expenses2" class="ticket_input1"> </input> <br> <br> <br>
+          <input id="expenses3" class="ticket_input1"> </input> <br> <br> <br>
+          <input id="expenses4" class="ticket_input1"> </input> <br> <br> <br>
+          <input id="expenses5" class="ticket_input1"> </input> <br> <br> <br>
+        </form>
+        </form>
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
