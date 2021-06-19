@@ -34,10 +34,10 @@ html {
   
   .everything2 {
     display: flex;
-    margin-left: 150px;
+    margin-left: 130px;
     position: absolute;
     top: 75%;
-    left: 150.25%;
+    left: 65.25%;
     transform: translate(-55%, -60%);
   }
   .expenses {
