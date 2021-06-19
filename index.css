@@ -44,3 +44,11 @@ html {
     margin-left: 20px;
   }
   
+
+footer {
+  font-style: italic;
+  font-size: 90%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
