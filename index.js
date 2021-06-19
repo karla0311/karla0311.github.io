@@ -71,7 +71,7 @@ function calculate_button(event) {
     alert("total expenses is : " + total_expenses);
   
     var total_money_left = monthly_income - total_expenses;
-    var months_eliminated_debt = total_debt / total_money_left;
+    var months_eliminated_debt = Math.ceil(total_debt / total_money_left);
     alert(
       Math.ceil(months_eliminated_debt) + " months till eliminated student debt!"
     );
