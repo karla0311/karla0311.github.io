@@ -47,10 +47,9 @@ html {
 
 footer {
   font-family: "Yeseva One", serif;
-  font-size: 30px;
+  font-size: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-bottom: 500px;
 }
