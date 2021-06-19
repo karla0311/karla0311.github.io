@@ -73,7 +73,7 @@ function calculate_button(event) {
     var total_money_left = monthly_income - total_expenses;
     var months_eliminated_debt = total_debt / total_money_left;
     alert(
-      Math.round(months_eliminated_debt) + " months till eliminated student debt!"
+      Math.round((10*X)/10)(months_eliminated_debt) + " months till eliminated student debt!"
     );
     if (months_eliminated_debt <= 0) {
       alert("You will never eliminate your debt.");
